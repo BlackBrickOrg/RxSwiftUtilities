@@ -38,6 +38,7 @@
 		88EB631C216B2D2E00130C74 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB631B216B2D2E00130C74 /* TwoWayBinding.swift */; };
 		88EB631F216B2E2500130C74 /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB631D216B2E1C00130C74 /* TwoWayBindingTests.swift */; };
 		88EB6322216B43F400130C74 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1901DE4839900DAE48A /* RxSwift.framework */; };
+		FB2B5DA3228B1595009E537F /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2B5DA2228B1595009E537F /* RxRelay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		88E73C611DE481A100C0D2F6 /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EB631B216B2D2E00130C74 /* TwoWayBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
 		88EB631D216B2E1C00130C74 /* TwoWayBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindingTests.swift; sourceTree = "<group>"; };
+		FB2B5DA2228B1595009E537F /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2B5DA3228B1595009E537F /* RxRelay.framework in Frameworks */,
 				888CC1911DE4839900DAE48A /* RxSwift.framework in Frameworks */,
 				880343681DE395A20055DA33 /* RxCocoa.framework in Frameworks */,
 			);
@@ -237,6 +240,7 @@
 		888CC1921DE483AC00DAE48A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB2B5DA2228B1595009E537F /* RxRelay.framework */,
 				888CC1901DE4839900DAE48A /* RxSwift.framework */,
 				880343671DE395A20055DA33 /* RxCocoa.framework */,
 			);
@@ -460,7 +464,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = RxSwiftCommunity;
 				TargetAttributes = {
 					880343071DE303160055DA33 = {
@@ -502,10 +506,11 @@
 			};
 			buildConfigurationList = 880343021DE303160055DA33 /* Build configuration list for PBXProject "RxSwiftUtilities" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 880342FE1DE303160055DA33;
 			productRefGroup = 880343091DE303160055DA33 /* Products */;
@@ -838,7 +843,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -847,7 +851,7 @@
 				PRODUCT_NAME = RxSwiftUtilities;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -863,7 +867,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -871,7 +874,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxSwiftUtilities;
 				PRODUCT_NAME = RxSwiftUtilities;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
