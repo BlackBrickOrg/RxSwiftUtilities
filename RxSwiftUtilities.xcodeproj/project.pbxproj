@@ -89,6 +89,13 @@
 		88E73C611DE481A100C0D2F6 /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EB631B216B2D2E00130C74 /* TwoWayBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
 		88EB631D216B2E1C00130C74 /* TwoWayBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindingTests.swift; sourceTree = "<group>"; };
+		FB0ED101228B227E00D4F033 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB0ED102228B227E00D4F033 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		FB0ED103228B227E00D4F033 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FB0ED104228B227E00D4F033 /* RxSwiftUtilities.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RxSwiftUtilities.podspec; sourceTree = "<group>"; };
+		FB0ED105228B227E00D4F033 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		FB0ED106228B227E00D4F033 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		FB0ED107228B227E00D4F033 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		FB2B5DA2228B1595009E537F /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +174,13 @@
 		880342FE1DE303160055DA33 = {
 			isa = PBXGroup;
 			children = (
+				FB0ED103228B227E00D4F033 /* Cartfile */,
+				FB0ED106228B227E00D4F033 /* Cartfile.resolved */,
+				FB0ED102228B227E00D4F033 /* CHANGELOG.md */,
+				FB0ED105228B227E00D4F033 /* CODE_OF_CONDUCT.md */,
+				FB0ED107228B227E00D4F033 /* LICENSE.md */,
+				FB0ED101228B227E00D4F033 /* README.md */,
+				FB0ED104228B227E00D4F033 /* RxSwiftUtilities.podspec */,
 				8803430A1DE303160055DA33 /* Source */,
 				880343151DE303160055DA33 /* Tests */,
 				880343091DE303160055DA33 /* Products */,
